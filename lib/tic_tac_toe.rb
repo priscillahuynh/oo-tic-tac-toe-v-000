@@ -106,7 +106,7 @@ WIN_COMBINATIONS.detect do |win_combo|
     nil
   end
 end
-# end
+end
 # end
 
   def over?
