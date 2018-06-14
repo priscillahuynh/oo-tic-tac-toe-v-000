@@ -14,7 +14,7 @@ class TicTacToe
     [2,4,6]  #Right diagonal
   ]
 
-  def display_board(board)
+  def display_board
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
