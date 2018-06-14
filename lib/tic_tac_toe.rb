@@ -53,6 +53,10 @@ class TicTacToe
     "X"
     else
     "O"
+    end
   end
+
+  def over?
+    won? || full? || draw?
 end
 end
