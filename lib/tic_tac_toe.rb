@@ -21,7 +21,7 @@ class TicTacToe
   puts "-----------"
   puts "   |   |   "
   end
-  
-  display_board
+
+  # display_board
 
 end
