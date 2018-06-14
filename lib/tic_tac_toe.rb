@@ -29,8 +29,8 @@ class TicTacToe
   def move
 
   end
-    
-    
+
+
 
 
 
