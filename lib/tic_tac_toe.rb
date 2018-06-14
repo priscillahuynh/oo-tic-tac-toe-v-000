@@ -107,9 +107,24 @@ WIN_COMBINATIONS.detect do |win_combo|
   end
 end
 end
-# end
 
   def over?
     won? || full? || draw?
+  end
+
+
+  def play
+    while over? == false
+      turn
+    end
+    if won?
+      puts "Congratulations #{winner}!"
+    elsif draw?
+      puts "Cat's Game!"
+    end
+  end
+
+  end
 end
-end
+
+
